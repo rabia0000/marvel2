@@ -1,0 +1,128 @@
+body{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-color: antiquewhite;
+    height: 115px;
+    
+}
+
+/* logo */
+
+img[alt="logo Super"]{
+    margin : 10px;
+    float: left;
+}
+
+/* barre de navigation */
+
+nav{
+  
+    position: relative;
+    left: 60px;
+    top: 40px;
+    display: inline-block;
+   
+}
+
+/* lien de la barre de navigation */
+
+nav > a {
+    font-size: 20px;
+    margin: 0 20px;
+    color:orange;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+/*  */
+main {
+    background-color: white;
+ 
+}
+
+
+/* LES TITRES */
+
+h2{
+    
+    clear: left;
+    font-size: 24px;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin : 10px;
+   
+   
+}
+
+/* FLOAT */
+
+img[alt="photo de l'équipe"]{
+   margin: 0 10px;
+   float: left;
+   width: 300px;
+}
+
+/* paragraphe */
+ p {
+    margin: 0 10px;
+    font-size: 16px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+}
+
+
+/* lire plus */
+
+   article a[href = "#"] {
+    text-decoration: none;
+    float: right;
+    background-color: orange;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+    margin : 34px;
+
+    
+}
+
+.clear{
+    clear: left;
+}
+
+/* float image 2*/
+
+img[alt="photo de l'équipe et dollars"]{
+
+ display: inline;
+   float: left;
+   width: 300px;
+}
+
+/* elements de ul */
+li{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: grey;
+  
+}
+
+
+
+.clear > a{
+    background-color: brown;
+}
+
+footer{
+display: inline-block;
+position : relative;
+left: 250px;
+top:40px;
+}
+
