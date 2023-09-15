@@ -1,6 +1,7 @@
 body{
     max-width: 750px;
     margin: 0 auto;
+    background-image: url(img/fond.png);
 }
 
 
@@ -41,6 +42,8 @@ nav > a {
 /*  */
 main {
     background-color: white;
+    padding: 10px;
+   
  
 }
 
@@ -54,41 +57,49 @@ h2{
     color: orange;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
-    margin : 10px;
-   
+    margin:0 auto;
    
 }
 
 /* FLOAT */
 
 img[alt="photo de l'équipe"]{
-   margin: 0 10px;
+   
    float: left;
-   width: 300px;
+   width: 30%;
+
 }
 
 /* paragraphe */
+
+/* #para2{
+    display: inline-block;
+} */
  p {
-    margin: 0 10px;
+    
     font-size: 16px;
     color: grey;
     font-family: 'Poppins', sans-serif;
-    display: inline;
+  
+    
 }
 
 
 /* lire plus */
 
-   article a[href = "#"] {
-    text-decoration: none;
-    float: right;
-    background-color: orange;
-    padding: 6px;
+   article  a[href = "#"] {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    left: 640px;
+    top: 5px;
+    padding: 5px 0;
+     background-color: orange;
     color: white;
+    text-decoration: none;
+    font-size: 16px;
     font-weight: bold;
-    margin : 34px;
-
-    
+ 
 }
 
 .clear{
@@ -101,7 +112,7 @@ img[alt="photo de l'équipe et dollars"]{
 
  display: inline;
    float: left;
-   width: 300px;
+   width: 30%;
 }
 
 /* elements de ul */
