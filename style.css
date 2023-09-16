@@ -28,6 +28,13 @@ nav{
     display: inline-block;
    
 }
+/* balise main */
+main {
+    background-color: white;
+    padding: 10px;
+   
+ 
+}
 
 /* lien de la barre de navigation */
 
@@ -40,12 +47,7 @@ nav > a {
    
 }
 /*  */
-main {
-    background-color: white;
-    padding: 10px;
-   
- 
-}
+
 
 
 /* LES TITRES */
@@ -66,23 +68,22 @@ h2{
 img[alt="photo de l'équipe"]{
    
    float: left;
-   width: 30%;
-
+   width: 40%;
+   
 }
 
 /* paragraphe */
 
-/* #para2{
-    display: inline-block;
-} */
+
  p {
-    
     font-size: 16px;
     color: grey;
     font-family: 'Poppins', sans-serif;
-  
+   
     
+  
 }
+
 
 
 /* lire plus */
@@ -110,9 +111,9 @@ img[alt="photo de l'équipe"]{
 
 img[alt="photo de l'équipe et dollars"]{
 
- display: inline;
+   display: inline;
    float: left;
-   width: 30%;
+   width: 40%;
 }
 
 /* elements de ul */
@@ -136,4 +137,13 @@ position : relative;
 left: 250px;
 top:40px;
 }
+
+article{
+    float: left;
+}
+
+p > span{
+    
+    
+ }
 
